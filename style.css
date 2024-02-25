@@ -1,7 +1,28 @@
+@font-face {
+    font-family: figtree_italic;
+    src: url(assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: figtree_variable;
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: figtree_extrabold;
+    src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: figtree_semibold;
+    src: url(assets/fonts/static/Figtree-SemiBold.ttf);
+}
+
 *{
     margin: 0;
     line-height: 1.5;
     background-color: var(--color-white);
+    font-family: figtree_variable;
 }
 
 html{
@@ -36,7 +57,7 @@ html{
 button{
     background-color: hsl(47, 88%, 63%);
     color: hsl(0, 0%, 7%);
-    font-weight: 600;
+    font-weight: 800;
     padding: 0.5rem 1rem;
     border-radius: 5px;
     border: none;
@@ -44,6 +65,7 @@ button{
 
 .pub{
     margin: 2rem auto;
+    font-family: figtree_italic;
 }
 
 .main_body{
@@ -52,6 +74,7 @@ button{
 
 h1{
     margin-bottom: 2rem;
+    font-family: figtree_extrabold;
 }
 
 h1:hover{
@@ -72,8 +95,7 @@ body:has(h1:hover) .container{
 .dis_flex{
     display: flex;
     margin: 2rem auto;
-    justify-content: last baseline;
-    font-weight: 800;
+    font-family: figtree_extrabold;
 }
 
 .dis_flex img{
