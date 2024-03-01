@@ -80,7 +80,7 @@ h1{
 h1:hover{
     color: hsl(47, 88%, 63%);
     cursor: pointer;
-    transition: 0.5s;
+    transition: 0.5s all;
 }
 
 body:has(h1:hover) .container{
